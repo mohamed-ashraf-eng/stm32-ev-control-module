@@ -1,0 +1,60 @@
+# STM32CubeIDE / Eclipse build outputs
+Debug/
+Release/
+build/
+Build/
+
+# Object and dependency files
+*.o
+*.obj
+*.d
+*.su
+*.cyclo
+*.lst
+
+# Firmware output files
+*.elf
+*.bin
+*.hex
+*.map
+*.srec
+*.list
+
+# Generated makefiles inside build folders
+makefile
+sources.mk
+objects.mk
+objects.list
+subdir.mk
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# STM32CubeIDE / Eclipse workspace metadata
+.metadata/
+
+# Optional local IDE settings
+.settings/
+
+# VS Code local settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep these important files tracked:
+# Core/
+# Drivers/
+# *.ioc
+# *.ld
+# .project
+# .cproject
+# .mxproject
+# README.md
+# LICENSE
